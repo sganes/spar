@@ -1,0 +1,20 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Header />
+  <Body>
+    <SPARPersonsokningFraga xmlns="http://skatteverket.se/spar/instans/1.0"
+      xmlns:spako="http://skatteverket.se/spar/komponent/1.0">
+      <spako:IdentifieringsInformation>
+        <spako:KundNrLeveransMottagare>500243</spako:KundNrLeveransMottagare>
+        <spako:KundNrSlutkund>500243</spako:KundNrSlutkund>
+        <spako:OrgNrSlutkund>3102263153</spako:OrgNrSlutkund>
+        <spako:SlutAnvandarId>foretag-200428</spako:SlutAnvandarId>
+        <spako:Tidsstampel>2020-04-28T15:35:00.000</spako:Tidsstampel>
+      </spako:IdentifieringsInformation>
+      <spako:PersonsokningFraga>
+        <spako:PersonId nulage="J">
+          <spako:FysiskPersonId>197911072390</spako:FysiskPersonId>
+        </spako:PersonId>
+      </spako:PersonsokningFraga>
+    </SPARPersonsokningFraga>
+  </Body>
+</Envelope>

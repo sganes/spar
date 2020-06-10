@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sganes/spar/issues"
   },
-  "homepage": "https://github.com/sganes/spar#readme"
+  "homepage": "https://github.com/sganes/spar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "soap": "^0.31.0",
+    "xml2json": "^0.12.0"
+  }
 }
