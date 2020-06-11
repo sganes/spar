@@ -8,7 +8,7 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 
 ## Installation
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ git clone https://github.com/sganes/spar.git
     $ cd PROJECT_TITLE
     $ npm install
 
