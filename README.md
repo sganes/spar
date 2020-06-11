@@ -1,4 +1,4 @@
-# Project Title
+# SPARPersonsokning
 
 The API gathers information from a database that includes all persons who are registered as residents in Sweden, known as the SPAR register.
 
