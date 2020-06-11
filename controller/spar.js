@@ -52,9 +52,10 @@ function processSoapRequest(arg) {
                         resolve(result.PersonsokningSvarsPost);
                     else {
                         const err = {
-                            status: 204,
-                            message: 'Information not available'
+                            status: 404,
+                            message: `Data not found for the personal number ${arg['spako:PersonsokningFraga']['spako:PersonId']['spako:FysiskPersonId']}`
                         }
+                        console.log(err)
                         reject(err);
                     }
 
